@@ -1,0 +1,43 @@
+# Config (contient des tokens secrets)
+config.json
+
+# Environnement virtuel
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Logs
+logs/
+*.log
+
+# Screenshots / images temporaires
+screenshots/
+*.png
+*.jpg
+*.jpeg
+!assets/*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
