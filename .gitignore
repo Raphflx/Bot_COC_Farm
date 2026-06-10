@@ -26,6 +26,7 @@ screenshots/
 *.jpg
 *.jpeg
 !assets/*.png
+!src/vision/templates/*.png
 
 # IDE
 .vscode/

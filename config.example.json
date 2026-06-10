@@ -1,0 +1,23 @@
+{
+  "adb": {
+    "host": "127.0.0.1",
+    "port": 5555,
+    "timeout": 30,
+    "adb_path": "adb"
+  },
+  "bot": {
+    "max_run_hours": 6,
+    "tap_delay_min": 0.5,
+    "tap_delay_max": 1.5,
+    "swipe_duration_ms": 300
+  },
+  "vision": {
+    "confidence_threshold": 0.85,
+    "templates_path": "src/vision/templates"
+  },
+  "notifications": {
+    "discord_webhook_url": "",
+    "telegram_bot_token": "",
+    "telegram_chat_id": ""
+  }
+}
